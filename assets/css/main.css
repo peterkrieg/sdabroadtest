@@ -626,6 +626,16 @@ figure.post-media + * {
     color: #00ACED;
     color: #2FBBED;
 }
+
+.member .text-overlay .info .social li a:hover .icon-s-linkedin {
+		color: #4875b4;
+		color: yellow;
+}
+
+
+
+
+
 .member .text-overlay .info .social li a i:after {
 	background: #FFF;
 }
@@ -1811,6 +1821,18 @@ aside .thumb figure {
     background: #00ACED;
     background: #2FBBED;
 }
+
+
+
+.btn-share-lg:hover .icon-s-linkedin:after,
+.btn-share-md:hover .icon-s-linkedin:after,
+.btn-share-sm:hover .icon-s-linkedin:after,
+.btn-share-xs:hover .icon-s-linkedin:after {
+    background: yellow;
+    background: yellow;
+}
+
+
 .btn-share-lg p,
 .btn-share-md p,
 .btn-share-sm p,
@@ -1945,9 +1967,9 @@ p .btn {
     background: #3B5998;
     background: #4668B3;
 }
-.social a .icon-s-gplus:after {
-    background: #DD4B39;
-    background: #DE5745;
+.social a .icon-s-linkedin:after {
+    background: #4875B4;
+    background: #4875B4;
 }
 .social a .icon-s-twitter:after {
     background: #00ACED;
@@ -1957,13 +1979,13 @@ p .btn {
     background: #CB2027;
     background: #D94348;
 }
-.social a .icon-s-behance:after {
-    background: #1769FF;
-    background: #3079FF;
+.social a .fa-weixin:after {
+    background: #52CC29;
+    background: #52CC29;
 }
-.social a .icon-s-dribbble:after {
-    background: #EA4C89;
-    background: #EB6397;
+.social a .icon-s-instagram:after {
+    background: #4E433C;
+    background: #4E433C;
 }
 
 
