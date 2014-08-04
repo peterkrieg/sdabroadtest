@@ -1988,6 +1988,11 @@ p .btn {
     background: #4E433C;
 }
 
+.social a .fa-envelope:after {
+    background: #202a35;
+    background: #202a35;
+}
+
 
 /*===================================================================================*/
 /*	TABS ON SIDE
@@ -5853,3 +5858,42 @@ a.changecolor {
 		max-height: 50px;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,13 +1,13 @@
 <?php
 	// ========== Enter your e-mail address here ========== //
-	$to = 'info@fuviz.com';
+	$to = 'copperkrieg@gmail.com';
 	
 	$name=$_REQUEST['name'];
 	$email=$_REQUEST['email'];
 	$subject = $_REQUEST['subject'];
 	
 	if($subject==""){
-		$subject = 'REEN Contact Form';
+		$subject = 'Question About Summer Destinations';
 	}
 	
 	$message=$_REQUEST['message'];
