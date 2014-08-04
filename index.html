@@ -20,7 +20,7 @@
 		<link href="assets/css/owl.carousel.css" rel="stylesheet">
 		<link href="assets/css/owl.transitions.css" rel="stylesheet">
 		<link href="assets/css/animate.min.css" rel="stylesheet">
-		<link href="assets/css/animate.css" rel="stylesheet">
+		
 		
 		
 		<!-- Fonts -->
@@ -41,18 +41,23 @@
 
 
 
-		   <script src="js/wow.min.js"></script>
+		   <script src="assets/js/wow.min.js"></script>
     <script>
      new WOW().init();
+
     </script>
 
 
 	</head>
 	
-	<body class="wow fadeIn" >
+	<body style="display:none;" >
 		
 		<!-- ============================================================= HEADER ============================================================= -->
 		
+
+
+
+
 		<header>
 			<div class="navbar">
 
@@ -797,6 +802,12 @@
 			$(document).ready(function(){ 
 				$(".changecolor").switchstylesheet( { seperator:"color"} );
 			});
+		</script>
+
+		<script>
+	$(window).load(function() {
+  $("body").fadeIn("slow");
+});
 		</script>
 		<!-- For demo purposes – can be removed on production : End -->
 	</body>
