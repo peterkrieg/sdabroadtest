@@ -210,7 +210,7 @@ $(document).ready(function () {
 	});
 	
 	$("#owl-testimonials").owlCarousel({
-		autoPlay: 5000,
+		autoPlay: false,
 		stopOnHover: true,
 		navigation: true,
 		pagination: true,
