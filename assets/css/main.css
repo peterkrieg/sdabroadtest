@@ -5814,8 +5814,8 @@ a.changecolor {
 	}
 
 	300 {
-		padding-top: 0;
-		padding-bottom: 0;
+		padding-top: 0px;
+		padding-bottom: 0px;
 		-webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.1);
 		   -moz-box-shadow: 0 10px 10px rgba(0,0,0,0.1);
 				box-shadow: 0 10px 10px rgba(0,0,0,0.1);
@@ -5824,10 +5824,10 @@ a.changecolor {
 
 @-skrollr-keyframes shrink-logo {
 	40 {
-		max-height: 80px;
+		max-height: 90px;
 	}
 
 	300 {
-		max-height: 20px;
+		max-height: 50px;
 	}
 }
