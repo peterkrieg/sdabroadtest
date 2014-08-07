@@ -1363,7 +1363,7 @@ aside .thumb figure {
 	float: none;
 	display: table-cell;
 	vertical-align: middle;
-	padding-left: 30px;
+	padding-left: 0px;
     margin: 0;
 }
 .navbar-nav > li > a {
