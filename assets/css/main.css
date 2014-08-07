@@ -171,7 +171,7 @@ ol {
 ul {
     list-style: none;
 	position: relative;
-	padding-left: 2px;
+	padding-left: 22px;
 }
 ul.arrowed li,
 ul.circled li,
@@ -1363,7 +1363,7 @@ aside .thumb figure {
 	float: none;
 	display: table-cell;
 	vertical-align: middle;
-	padding-left: 0px;
+	padding-left: 30px;
     margin: 0;
 }
 .navbar-nav > li > a {
