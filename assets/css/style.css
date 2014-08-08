@@ -23,5 +23,9 @@ h1, h2, h3, h4, h5, h6 {color: #034b25;}
 
 #scrollUp{background-color: #034b25;}
 }
+
+
+.owl-prev, .owl-next  {background-color: red;
+}
  
 
