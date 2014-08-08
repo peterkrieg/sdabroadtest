@@ -40,7 +40,7 @@ iframe {
 }
 ::selection {
     background: #AAF2E4; /* Safari */
-    color: #506A85;
+    color: #034b25;
 }
 ::-moz-selection {
     background: #AAF2E4; /* Firefox */
@@ -1371,7 +1371,7 @@ aside .thumb figure {
 	line-height: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #506A85;
+    color: #034b25;
     padding: 15px 20px;
 	border: 1px solid rgba(255,255,255,0);
 	border-bottom: none;
