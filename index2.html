@@ -46,9 +46,12 @@
    new WOW().init();
   </script>
 </head>
+
+
+
 <body id="home">
 
-<!-- ============================================   HEADER  ===================================================== -->
+<!-- ===================================   HEADER  ========================================= -->
 
 	<header>
 		<div class="navbar">
@@ -67,7 +70,7 @@
 						<!-- logo normal -->
 						<a class="navbar-brand" href="#home"><img src="assets/images/logo.png" class="logo" alt=""  ></a>
 
-						<!-- ===================================== MAIN NAVIGATION ======================================== -->
+						<!-- =========================== MAIN NAVIGATION ================================= -->
 					
 						<ul class="nav navbar-nav">
 							<li class="dropdown">
@@ -107,22 +110,22 @@
 
 						</ul><!-- /.nav -->
 						
-						<!-- ============================== MAIN NAVIGATION : END ======================================= -->
+						<!-- ===================== MAIN NAVIGATION : END ============================= -->
 						
 					</div><!-- /.container -->
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.yamm -->
 		</div><!-- /.navbar -->
 	</header>
-	<!-- ===================================== HEADER : END ============================================== -->
+	<!-- =========================== HEADER : END ============================ -->
 	
 
 
-	<!-- ========================================= MAIN =========================================== -->
+	<!-- =================================== MAIN =============================== -->
 	<main>
 
 
-		<!-- ======================================= SECTION – HERO =============================================== -->
+		<!-- ========================== SECTION – HERO ===================================== -->
 		<section id="hero"  class="wow bounceInDown" data-wow-duration="2s">
 			<div id="owl-main" class="owl-carousel height-lg owl-inner-nav owl-ui-lg">
 				<div class="item" style="background-image: url(assets/images/campphotos/1.jpg);">
@@ -178,10 +181,10 @@
 				</div><!-- /.item -->
 			</div><!-- /.owl-carousel -->
 		</section>
-		<!-- =========================================== SECTION – HERO : END ===================================== -->
+		<!-- ============================== SECTION – HERO : END ============================== -->
 		
 
-		<!-- ======================================== SECTION – CIRCLE TABS ============================================== -->
+		<!-- ============================== SECTION – CIRCLE TABS =============================== -->
 		<section id="circle-tabs" class="light-bg">
 			<div class="container inner">
 				<div class="row"  >
@@ -247,11 +250,11 @@
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section>
-		<!-- =============================== SECTION – CIRCLE TABS : END ============================================ -->
+		<!-- ======================= SECTION – CIRCLE TABS : END ============================= -->
 
 
 
-<!-- ==================================== SECTION – TEAM =================================== -->
+		<!-- ========================= SECTION – TEAM ================================== -->
 		<section id="team" >
 			<div class="container inner-top inner-bottom-sm">
 				<div class="row">
@@ -334,14 +337,14 @@
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section>
-		<!-- ================================= SECTION – TEAM : END ===================================== -->
+		<!-- ========================== SECTION – TEAM : END =============================== -->
 
 
 		
 
 
 
-		<!-- ================================ SECTION – MEDIA : BEGIN ===================================== -->
+		<!-- ========================= SECTION – MEDIA : BEGIN ======================== -->
 		<section id="media"  >
 			<div class="container inner">
 				<div class="row"   >
@@ -362,10 +365,10 @@
 				</div><!-- ./row -->
 			</div>
 		</section>
-		<!-- ================================ SECTION – MEDIA:  END ===================================== -->
+		<!-- ======================= SECTION – MEDIA:  END ================================= -->
 
 
-	<!-- ============================= SECTION – CONTACT FORM =============================== -->
+		<!-- ======================= SECTION – CONTACT FORM ============================= -->
 		<section id="contact-form"  class ="wow flipInX light-bg" data-wow-duration="2.5s" data-wow-delay=".5s">
 			<div class="container inner">
 				<div class="row">
@@ -426,9 +429,9 @@
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section>
-		<!-- =============================== SECTION – CONTACT FORM : END =================================== -->
+		<!-- ===================== SECTION – CONTACT FORM : END ========================== -->
 	</main>
-	<!-- ============================================= MAIN : END ========================================== -->
+	<!-- ================================= MAIN : END ================================ -->
 	
 
 	<footer>
@@ -460,7 +463,7 @@
 	  </div>
 	</div>
 
-	<!-- ============================= FOOTER : END ===================================== -->
+	<!-- ======================== FOOTER : END ============================== -->
 	
 
 	<!-- JavaScripts placed at the end of the document so the pages load faster -->
@@ -489,21 +492,21 @@
 
 	<!-- Script to scroll down the page-->
 	<script>
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
         }, 1000);
         return false;
-      }
-    }
-  });
-});
-</script>
+	      }
+	    }
+	  });
+	});
+	</script>
 
 </body>
 </html>
