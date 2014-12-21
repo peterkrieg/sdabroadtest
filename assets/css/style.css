@@ -39,3 +39,14 @@ h1, h2, h3, h4, h5, h6 {color: #034b25;}
 }
 
 
+main #hero{
+	height: 650px;
+}
+
+main #hero #owl-main{
+	height: 650px;
+}
+
+main #hero #owl-main .item{
+	height: 650px;
+}
