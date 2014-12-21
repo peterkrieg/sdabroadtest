@@ -374,7 +374,7 @@ $(document).ready(function () {
 /*===================================================================================*/
 
 $(document).ready(function() {
-	/*var waypointClass = '[class*="animate"]';
+	var waypointClass = '[class*="animate"]';
 	$(waypointClass).css({opacity: '0'});
 	
 	$(waypointClass).waypoint(function() {
@@ -389,7 +389,7 @@ $(document).ready(function() {
 	{
 		offset: '90%',
 		triggerOnce: true
-	});*/
+	});
 	
 	var waypointClass = 'main [class*="col-"]';
 	var animationClass = 'fadeInUp';
@@ -761,3 +761,5 @@ $(document).ready(function () {
 $(document).ready(function () {
 	window.viewportUnitsBuggyfill.init(true);
 });
+
+
