@@ -2,9 +2,6 @@
 
 
 
-
-
-
 h1, h2, h3, h4, h5, h6 {color: #034b25;}
 
 .owl-pagination .owl-page span {  background: #034b25;}
@@ -32,3 +29,11 @@ h1, h2, h3, h4, h5, h6 {color: #034b25;}
 
 .navbar .dropdown-menu {  width: 20px;  margin: none;  padding: none;}
 
+
+
+
+/*circle tabs section*/
+
+#circle-tabs ul{
+	list-style-type: square
+}
