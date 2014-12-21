@@ -100,16 +100,16 @@
 
 
 
-							<li class="dropdown pull-right" style="border-right:  2px green solid;" ><a href="https://www.linkedin.com/company/summer-destinations-llc" class="dropdown-toggle js-activated"  target="blank"><i class="icon-s-linkedin"></i></a></li>
+							<li class="dropdown pull-right" style="border-right:  2px green solid;" ><a href="https://www.linkedin.com/company/summer-destinations-llc"   target="blank"><i class="icon-s-linkedin"></i></a></li>
 							
-							<li class="dropdown  pull-right" ><a href="http://instagram.com/sdabroad"  class="dropdown-toggle js-activated" target="blank"><i class="icon-s-instagram"></i></a></li>
+							<li class="dropdown  pull-right" ><a href="http://instagram.com/sdabroad"   target="blank"><i class="icon-s-instagram"></i></a></li>
 
 
-							<li class="dropdown pull-right" ><a href="https://www.facebook.com/pages/Summer-Destinations/1375668752655465"  class="dropdown-toggle js-activated"target="blank" ><i class="icon-s-facebook"></i></a></li>
+							<li class="dropdown pull-right" ><a href="https://www.facebook.com/pages/Summer-Destinations/1375668752655465"  target="blank" ><i class="icon-s-facebook"></i></a></li>
 
 
 
-							<li class="dropdown pull-right" style="padding-right: none;" ><a href= "#"   class="dropdown-toggle js-activated" data-toggle="modal"  data-target="#myModal"  > <i class="fa fa-weixin"></i> </a></li>
+							<li class="dropdown pull-right" style="padding-right: none;" ><a href= "#"    data-toggle="modal"  data-target="#myModal"  > <i class="fa fa-weixin"></i> </a></li>
 
 
 
@@ -498,7 +498,7 @@
 	<!-- Script to scroll down the page-->
 	<script>
 $(function() {
-  $('a[href*=#]').click(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
