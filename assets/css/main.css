@@ -1373,7 +1373,7 @@ aside .thumb figure {
     text-transform: uppercase;
     color: #034b25;
     padding: 15px 20px;
-	border: 1px solid rgba(255,255,255,0);
+	/*border: 1px solid rgba(255,255,255,0);*/
 	border-bottom: none;
 	-webkit-border-top-right-radius: 3px;
 	 -webkit-border-top-left-radius: 3px;
@@ -1394,13 +1394,13 @@ aside .thumb figure {
 	         border-top-left-radius: 0;
 }
 .nav > li > a:hover {
-    background-color: #F5F7FA;
-    border-color: #E6E9ED;
+    /*background-color: #F5F7FA;*/
+    /*border-color: #E6E9ED;*/
     color: #1ABB9C;
 }
 .nav > li > a:focus {
-    background-color: #FFF;
-    border-color: #FFF;
+    /*background-color: #FFF;*/
+    /*border-color: #FFF;*/
 }
 .navbar .dropdown-menu {
     padding: 0;
@@ -1441,14 +1441,14 @@ aside .thumb figure {
 .navbar .dropdown-menu:not(.yamm-dropdown-menu) li a:hover,
 .navbar .dropdown-menu:not(.yamm-dropdown-menu) li a.active {
     filter: none;
-    background-color: #F5F7FA;
-    color: #1ABB9C;
+    /*background-color: #F5F7FA;*/
+    /*color: #1ABB9C;*/
 }
 .navbar .nav .open > a,
 .navbar .nav .open > a:hover,
 .navbar .nav .open > a:focus {
-    background-color: #F5F7FA;
-    border-color: #E6E9ED;
+    /*background-color: #F5F7FA;*/
+    /*border-color: #E6E9ED;*/
 }
 .navbar .nav > li > .dropdown-menu:not(.yamm-dropdown-menu):after {
     display: none;
@@ -1466,7 +1466,7 @@ aside .thumb figure {
 .navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a,
 .navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:hover,
 .navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:focus {
-    background: #1ABB9C;
+    /*background: #1ABB9C;*/
     color: #FFF !important;
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
@@ -1625,27 +1625,11 @@ aside .thumb figure {
 .btn.btn-green {
     background: #1ABB9C;
 }
-.btn.btn-blue {
-    background: #3F8DBF;
-}
-.btn.btn-red {
-    background: #FA6C65;
-}
-.btn.btn-pink {
-    background: #D487BE;
-}
-.btn.btn-purple {
-    background: #9B59B6;
-}
+
 .btn.btn-orange {
     background: #F27A24;
 }
-.btn.btn-navy {
-    background: #34495E;
-}
-.btn.btn-gray {
-    background: #95A5A6;
-}
+
 .btn:hover,
 .btn:focus,
 .btn:active,

@@ -50,3 +50,9 @@ main #hero #owl-main{
 main #hero #owl-main .item{
 	height: 650px;
 }
+
+#home header .navbar .nobg a:hover, 
+#home header .navbar .nobg a:focus{
+	background-color: white;
+	border: none;
+}
