@@ -82,6 +82,10 @@ main #hero #owl-main .item{
 }
 
 
+#media iframe{
+	max-width: 100%;
+}
+
 
 
 
