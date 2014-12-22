@@ -56,3 +56,13 @@ main #hero #owl-main .item{
 	background-color: white;
 	border: none;
 }
+
+#hero #owl-main h1 span.menu-header{
+	padding: 0 20px;
+	border-radius: 20px;
+}
+
+#hero #owl-main p span.menu-header{
+	padding: 0 20px;
+	border-radius: 10px;
+}
